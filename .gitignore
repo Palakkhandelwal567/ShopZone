@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+*.log
+.env
+.env
+node_modules/
+.idea/
+.env
+node_modules/
+.idea/

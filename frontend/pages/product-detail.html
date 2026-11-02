@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pro Headphones X1 — ShopZone</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/responsive.css"/>
+  <style>
+    .pd-main-img {
+      transition: background 0.4s ease, transform 0.2s ease;
+    }
+    .pd-main-emoji {
+      transition: filter 0.4s ease, transform 0.2s ease;
+      font-size: 110px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="../index.html" class="nav-logo">Shop<span>Zone</span></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="account.html">Account</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="search-bar">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input type="text" placeholder="Search products..."/>
+        </div>
+        <button class="btn-icon" title="Account" onclick="window.location='account.html'">
+          <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+        </button>
+        <button class="btn-icon cart-icon" title="Cart" onclick="window.location='cart.html'">
+          <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="breadcrumb-bar">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>/</span>
+        <a href="products.html">Products</a>
+        <span>/</span>
+        <span class="active">Pro Headphones X1</span>
+      </nav>
+    </div>
+  </div>
+
+  <section class="pd-section section">
+    <div class="container">
+      <div class="pd-grid">
+
+        <div class="pd-gallery">
+          <div class="pd-main-img" id="mainImg">
+            <span class="pd-main-emoji">🎧</span>
+          </div>
+          <div class="pd-thumbs">
+            <div class="pd-thumb active" data-emoji="🎧">🎧</div>
+            <div class="pd-thumb" data-emoji="📦">📦</div>
+            <div class="pd-thumb" data-emoji="🔌">🔌</div>
+            <div class="pd-thumb" data-emoji="📋">📋</div>
+          </div>
+        </div>
+
+        <div class="pd-info">
+          <p class="eyebrow">Electronics</p>
+          <h1 class="pd-title">Pro Headphones X1</h1>
+          <div class="pd-rating">
+            <span class="stars">★★★★★</span>
+            <span class="pd-rating-text">4.9 · 284 reviews</span>
+          </div>
+          <div class="pd-price-wrap">
+            <span class="pd-price">₹8,999</span>
+            <span class="pd-price-old">₹12,999</span>
+            <span class="badge badge-success">31% OFF</span>
+          </div>
+          <p class="pd-desc">
+            Premium noise-cancelling headphones with 40hr battery life,
+            Hi-Res audio certification, and ultra-comfortable memory foam
+            ear cushions designed for all-day wear.
+          </p>
+
+          <div class="pd-option-group">
+            <p class="pd-option-label">Color: <span id="colorName">Space Black</span></p>
+            <div class="pd-colors">
+              <button class="color-dot active" data-color="Space Black" style="background:#222;border:2px solid #2874F0;" title="Space Black"></button>
+              <button class="color-dot" data-color="Bronze Gold" style="background:#C0A080;" title="Bronze Gold"></button>
+              <button class="color-dot" data-color="Pearl White" style="background:#E8E8E8;" title="Pearl White"></button>
+            </div>
+          </div>
+
+          <div class="pd-option-group">
+            <p class="pd-option-label">Quantity</p>
+            <div class="pd-qty">
+              <button class="qty-btn" id="qtyMinus">−</button>
+              <span class="qty-val" id="qtyVal">1</span>
+              <button class="qty-btn" id="qtyPlus">+</button>
+            </div>
+          </div>
+
+          <div class="pd-actions">
+            <button class="btn btn-primary btn-lg pd-cart-btn" id="addToCartBtn"
+              data-name="Pro Headphones X1" data-price="8999">
+              Add to Cart
+            </button>
+            <button class="pd-wish-btn" id="wishBtn" title="Wishlist">♡</button>
+          </div>
+
+          <div class="pd-features">
+            <div class="pd-feature">
+              <span class="pd-feature-icon">🚚</span>
+              <div>
+                <p class="pd-feature-title">Free Delivery</p>
+                <p class="pd-feature-sub">Orders above ₹499</p>
+              </div>
+            </div>
+            <div class="pd-feature">
+              <span class="pd-feature-icon">↩️</span>
+              <div>
+                <p class="pd-feature-title">Easy Returns</p>
+                <p class="pd-feature-sub">7-day return policy</p>
+              </div>
+            </div>
+            <div class="pd-feature">
+              <span class="pd-feature-icon">🛡️</span>
+              <div>
+                <p class="pd-feature-title">1 Year Warranty</p>
+                <p class="pd-feature-sub">Manufacturer warranty</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../js/main.js"></script>
+  <script>
+
+    // ── Dynamic Product Loader ──
+    var productData = {
+      'Pro Headphones X1':    { emoji:'🎧', cat:'Electronics',  price:'8999',  priceStr:'₹8,999',  old:'₹12,999', off:'31% OFF', rating:'4.9', reviews:'284', desc:'Premium noise-cancelling headphones with 40hr battery life, Hi-Res audio certification, and ultra-comfortable memory foam ear cushions.' },
+      'Air Max Pro 2026':     { emoji:'👟', cat:'Footwear',      price:'4299',  priceStr:'₹4,299',  old:'₹6,499',  off:'34% OFF', rating:'4.2', reviews:'156', desc:'Lightweight running shoes with air-cushion sole. Perfect for daily training and casual wear.' },
+      'Smart Watch Ultra':    { emoji:'⌚', cat:'Accessories',   price:'15999', priceStr:'₹15,999', old:'₹19,999', off:'20% OFF', rating:'4.8', reviews:'421', desc:'Fitness tracker with AMOLED display, SpO2 monitoring, and 14-day battery life.' },
+      'Premium Cotton Tee':   { emoji:'👕', cat:'Fashion',       price:'1299',  priceStr:'₹1,299',  old:'₹1,999',  off:'35% OFF', rating:'4.1', reviews:'98',  desc:'100% organic cotton, pre-shrunk, ultra-soft everyday essential.' },
+      'Ultra Smartphone 15':  { emoji:'📱', cat:'Electronics',   price:'62999', priceStr:'₹62,999', old:'₹74,999', off:'16% OFF', rating:'4.7', reviews:'732', desc:'6.7" AMOLED, 200MP camera, Snapdragon 8 Gen 3, 5000mAh battery.' },
+      'Leather Tote Bag':     { emoji:'👜', cat:'Fashion',       price:'3499',  priceStr:'₹3,499',  old:'₹5,999',  off:'42% OFF', rating:'4.3', reviews:'67',  desc:'Genuine leather, spacious interior, magnetic clasp, multiple pockets.' },
+      'Heels Classic Edition':{ emoji:'👠', cat:'Footwear',      price:'2799',  priceStr:'₹2,799',  old:'₹3,999',  off:'30% OFF', rating:'4.6', reviews:'203', desc:'Stiletto heels with cushioned insole, available in 6 colors.' },
+      'Polarized Sunglasses': { emoji:'🕶️', cat:'Accessories',  price:'1899',  priceStr:'₹1,899',  old:'₹2,999',  off:'37% OFF', rating:'4.2', reviews:'145', desc:'UV400 protection, polarized lenses, lightweight TR90 frame.' },
+      'Wireless Earbuds Pro': { emoji:'🎵', cat:'Electronics',   price:'5499',  priceStr:'₹5,499',  old:'₹7,999',  off:'31% OFF', rating:'4.5', reviews:'312', desc:'True wireless, ANC, 30hr total battery, IPX5 water resistant.' },
+      'Sports Sneakers X':    { emoji:'👞', cat:'Footwear',      price:'3299',  priceStr:'₹3,299',  old:'₹4,999',  off:'34% OFF', rating:'4.0', reviews:'89',  desc:'Mesh upper, responsive foam midsole, anti-slip rubber outsole.' },
+      'Laptop Stand Pro':     { emoji:'💻', cat:'Electronics',   price:'2199',  priceStr:'₹2,199',  old:'₹3,499',  off:'37% OFF', rating:'4.5', reviews:'54',  desc:'Adjustable aluminum laptop stand, compatible with all laptops 11-17".' },
+      'Urban Cap Collection': { emoji:'🧢', cat:'Fashion',       price:'699',   priceStr:'₹699',    old:'₹1,299',  off:'46% OFF', rating:'4.1', reviews:'41',  desc:'Stylish urban caps in 8 colors, adjustable strap, premium cotton blend.' },
+      'Travel Backpack XL':   { emoji:'🎒', cat:'Accessories',   price:'2999',  priceStr:'₹2,999',  old:'₹4,499',  off:'33% OFF', rating:'4.5', reviews:'178', desc:'30L capacity, USB charging port, waterproof material, laptop compartment.' },
+    };
+
+    var params = new URLSearchParams(window.location.search);
+    var productName = params.get('name') || 'Pro Headphones X1';
+    var p = productData[productName] || productData['Pro Headphones X1'];
+
+    // Update all page elements
+    document.querySelector('.pd-main-emoji').textContent = p.emoji;
+    document.querySelectorAll('.pd-thumb')[0].textContent = p.emoji;
+    document.querySelectorAll('.pd-thumb')[0].dataset.emoji = p.emoji;
+    document.querySelector('.pd-title').textContent = productName;
+    document.querySelector('.pd-section .eyebrow').textContent = p.cat;
+    document.querySelector('.pd-price').textContent = p.priceStr;
+    document.querySelector('.pd-price-old').textContent = p.old;
+    document.querySelector('.badge-success').textContent = p.off;
+    document.querySelector('.pd-desc').textContent = p.desc;
+    document.querySelector('.pd-rating-text').textContent = p.rating + ' · ' + p.reviews + ' reviews';
+    document.getElementById('addToCartBtn').dataset.name = productName;
+    document.getElementById('addToCartBtn').dataset.price = p.price;
+    document.title = productName + ' — ShopZone';
+
+    // Update breadcrumb
+    var breadcrumbActive = document.querySelector('.breadcrumb .active');
+    if (breadcrumbActive) breadcrumbActive.textContent = productName;
+
+    // Update stars
+    var starCount = Math.round(parseFloat(p.rating));
+    var stars = '★'.repeat(starCount) + '☆'.repeat(5 - starCount);
+    document.querySelector('.pd-section .stars').textContent = stars;
+
+    // ── Thumbnail switcher ──
+    document.querySelectorAll('.pd-thumb').forEach(function(thumb) {
+      thumb.addEventListener('click', function() {
+        document.querySelectorAll('.pd-thumb').forEach(function(t) { t.classList.remove('active'); });
+        thumb.classList.add('active');
+        var emoji = document.querySelector('.pd-main-emoji');
+        emoji.style.transform = 'scale(0.85)';
+        emoji.textContent = thumb.dataset.emoji;
+        // Reset filter when switching thumbnails
+        emoji.style.filter = 'drop-shadow(0 8px 24px rgba(0,0,0,0.4))';
+        setTimeout(function() { emoji.style.transform = 'scale(1)'; }, 180);
+      });
+    });
+
+    // ── Color selector ──
+    var colorData = {
+      'Space Black': {
+        bg: 'linear-gradient(135deg, #1a1a2e, #0d0d1a)',
+        shadow: 'rgba(0,0,0,0.8)',
+        tint: 'rgba(20,20,40,0.0)'
+      },
+      'Bronze Gold': {
+        bg: 'linear-gradient(135deg, #3d2800, #6b4400)',
+        shadow: 'rgba(180,120,0,0.5)',
+        tint: 'rgba(200,140,0,0.15)'
+      },
+      'Pearl White': {
+        bg: 'linear-gradient(135deg, #2a2a3a, #3d3d52)',
+        shadow: 'rgba(220,220,255,0.3)',
+        tint: 'rgba(220,220,255,0.08)'
+      }
+    };
+
+    document.querySelectorAll('.color-dot').forEach(function(dot) {
+      dot.addEventListener('click', function() {
+        document.querySelectorAll('.color-dot').forEach(function(d) { d.classList.remove('active'); });
+        dot.classList.add('active');
+
+        var color = dot.dataset.color;
+        var data = colorData[color];
+        document.getElementById('colorName').textContent = color;
+
+        var emoji = document.querySelector('.pd-main-emoji');
+        var mainImg = document.getElementById('mainImg');
+
+        // Always keep headphones emoji
+        emoji.textContent = '🎧';
+
+        // Animate scale
+        emoji.style.transform = 'scale(0.82)';
+        mainImg.style.background = data.bg;
+        mainImg.style.boxShadow = 'inset 0 0 60px ' + data.tint;
+        emoji.style.filter = 'drop-shadow(0 8px 24px ' + data.shadow + ')';
+
+        setTimeout(function() {
+          emoji.style.transform = 'scale(1)';
+        }, 180);
+      });
+    });
+
+    // ── Quantity ──
+    var qty = 1;
+    document.getElementById('qtyPlus').addEventListener('click', function() {
+      qty = Math.min(qty + 1, 10);
+      document.getElementById('qtyVal').textContent = qty;
+    });
+    document.getElementById('qtyMinus').addEventListener('click', function() {
+      qty = Math.max(qty - 1, 1);
+      document.getElementById('qtyVal').textContent = qty;
+    });
+
+    // ── Add to cart ──
+    document.getElementById('addToCartBtn').addEventListener('click', function() {
+      var cart = JSON.parse(localStorage.getItem('shopzone_cart') || '[]');
+      for (var i = 0; i < qty; i++) {
+        cart.push({ name: this.dataset.name, price: this.dataset.price, id: Date.now() + i });
+      }
+      localStorage.setItem('shopzone_cart', JSON.stringify(cart));
+      var countEl = document.getElementById('cartCount');
+      if (countEl) { countEl.textContent = cart.length; countEl.classList.add('visible'); }
+      this.textContent = '✓ Added!';
+      this.style.background = '#2ECC71';
+      var btn = this;
+      setTimeout(function() { btn.textContent = 'Add to Cart'; btn.style.background = ''; }, 2000);
+      showToast('✓ Added ' + qty + ' item' + (qty > 1 ? 's' : '') + ' to cart!', 'success');
+    });
+
+    // ── Wishlist ──
+    var wishBtn = document.getElementById('wishBtn');
+    wishBtn.addEventListener('click', function() {
+      wishBtn.classList.toggle('active');
+      wishBtn.textContent = wishBtn.classList.contains('active') ? '♥' : '♡';
+    });
+  </script>
+</body>
+</html>
