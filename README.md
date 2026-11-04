@@ -2,8 +2,6 @@
 
 ShopZone is a full-stack e-commerce web application built from scratch — featuring product browsing, cart & checkout, user authentication, order management, and a fully responsive dark/light themed UI.
 
-🔗 **Live Demo:** [shop-zone-bay-three.vercel.app](https://shop-zone-bay-three.vercel.app)
-🔗 **Backend API:** [shopzone-ij7m.onrender.com](https://shopzone-ij7m.onrender.com)
 
 > ⚠️ Note: The backend is hosted on Render's free tier, so the first request after inactivity may take 30–50 seconds to spin up.
 
@@ -67,8 +65,8 @@ ShopZone/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/AdityaSinghs2707/ShopZone-.git
-cd ShopZone-
+git clone https://github.com/Palakkhandelwal567/ShopZone.git
+cd ShopZone
 ```
 
 ### 2. Backend Setup
