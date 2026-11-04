@@ -101,12 +101,6 @@ Open `frontend/index.html` using **Live Server** (VS Code extension) — do not 
 
 ---
 
-## 👤 Author
-
-**Aditya Singh**
-[LinkedIn](https://www.linkedin.com/in/aditya-singh-b8b60a3a3/) · [GitHub](https://github.com/AdityaSinghs2707)
-
----
 
 ## 📄 License
 
